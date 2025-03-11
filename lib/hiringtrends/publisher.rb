@@ -49,7 +49,9 @@ module HiringTrends
       variables = post_template_variables(data_filename)
       content = Liquid::Template.parse(template).render(variables)
       post_filename = "web/#{item_published_at.year}/#{item_published_at.strftime('%B').downcase}.html"
+      # todo: create year directory (e.g. 2020) if it does not exist
       File.open(post_filename, "w") { |file| file.write(content) }
+      # todo: log that something has been published
     end
 
     private
