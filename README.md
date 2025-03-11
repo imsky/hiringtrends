@@ -13,7 +13,7 @@ This is a personal development project.  You are welcome to use, modify, etc. an
 
 ## Requirements
 
-  * Ruby (3.0+)
+  * Ruby (3.3+)
 
 ## Usage
 
