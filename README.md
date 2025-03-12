@@ -13,16 +13,18 @@ Created by <a href="https://www.ryanwilliams.dev">Ryan Williams</a>
 * [ ] Update RSS and subscription links
 * [ ] Update branding and authorship
 * [ ] Update README with new authorship and better setup/usage instructions
+* [ ] Move data files to S3
 * [ ] Generate index page automatically
 * [ ] Automatically fetch up to latest hiring post
 * [ ] Skip fetching existing data
 * [ ] Limit data to last 10 years, archive old posts
+* [ ] Figure out if terms parser works on word boundaries or substrings (e.g. "infra/ops" vs. "infra ops")
+* [ ] Remove all dictionary terms that have had no matches in the last 5 years
 * [ ] Implement dynamic dictionary file
   * [ ] Write script to extract terms from hiring posts
   * [ ] Save terms to local dictionary file
   * [ ] Use local dictionary file
-* [ ] Implement automatic charts for total post trends
-* [ ] Implement automatic charts for top languages and other tech
+* [ ] Implement automatic charts for total post trends, top languages and other tech
 * [ ] Write LLM-generated summary for MoM and YoY trends
 * [ ] Modernize design
 
