@@ -10,6 +10,7 @@ Created by <a href="https://www.ryanwilliams.dev">Ryan Williams</a>
 ## To do
 
 * [ ] Use updated dictionary file
+* [ ] Constrain single-item functionality so that running the program for Feb 2025 does not process Mar 2025
 * [ ] Update RSS and subscription links
 * [ ] Update branding and authorship
 * [ ] Update README with new authorship and better setup/usage instructions
